@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# My files
+.DS_Store
+.vscode/
+.obj/
+.cache/
+compile_commands.json
+cat_dog
