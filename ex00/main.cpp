@@ -13,5 +13,8 @@ int	main() {
 	std::cout << j->getType() << " " << std::endl;
 	j->makeSound();
 	meta->makeSound();
+	delete meta;
+	delete i;
+	delete j;
 	return 0;
 }
