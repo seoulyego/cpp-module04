@@ -14,8 +14,8 @@ class Cat : public Animal	{
 		Cat&	operator=(const Cat& object);
 		~Cat();
 
-		void		makeSound() const;
-		Brain		*getBrain() const;
+		void	makeSound() const;
+		Brain	*getBrain() const;
 };
 
 #endif  // CAT_HPP

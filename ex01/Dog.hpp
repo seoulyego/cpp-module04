@@ -14,8 +14,8 @@ class Dog : public Animal	{
 		Dog&	operator=(const Dog& object);
 		~Dog();
 
-		void		makeSound() const;
-		Brain		*getBrain() const;
+		void	makeSound() const;
+		Brain	*getBrain() const;
 };
 
 #endif  // DOG_HPP
