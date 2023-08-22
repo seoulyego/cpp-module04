@@ -14,6 +14,8 @@ SRC_FILES			:=	$(addsuffix .cpp,			\
 							Brain					\
 							Dog						\
 							Cat						\
+							WrongAnimal				\
+							WrongCat				\
 							main					\
 						)
 OBJ_FILES			:=	$(SRC_FILES:.cpp=.o)
