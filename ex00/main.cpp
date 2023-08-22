@@ -4,7 +4,12 @@
 #include "WrongCat.hpp"
 #include <iostream>
 
+void	i_wanna_go_home(void) {
+	system("leaks $PPID");
+}
+
 int	main() {
+	atexit(i_wanna_go_home);
 	const Animal* meta = new Animal();
 	const Animal* i = new Dog();
 	const Animal* j = new Cat();

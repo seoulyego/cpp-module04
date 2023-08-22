@@ -2,7 +2,7 @@
 #define WRONGCAT_HPP
 
 #include "WrongAnimal.hpp"
-#include "brain.hpp"
+#include "Brain.hpp"
 
 class WrongCat : public WrongAnimal	{
 	private:
